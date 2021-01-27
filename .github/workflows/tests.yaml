@@ -69,9 +69,9 @@ jobs:
           sudo npm install -g n
           sudo n stable
           # sudo npm config set prefix -g /usr
-          # sudo npm install -g markdownlint-cli
+          sudo npm install -g markdownlint-cli
           # cat npm-deps.txt | xargs sudo npm install -g
-          npm install markdownlint-cli
+          # npm install markdownlint-cli
           cat npm-deps.txt | xargs npm install
           rm nodesource_setup.sh
 
